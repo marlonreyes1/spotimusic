@@ -1,0 +1,71 @@
+html, body {
+	color: white;
+	width: 100%;
+	height: 100%;
+	background: url(https://wallpaperaccess.com/full/340434.png) no-repeat center center fixed;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+}
+
+hr {
+	margin: auto;
+	border-radius: 4px;
+	border: 3px solid white;
+	opacity: 100%;
+	max-width: 300px;
+
+}
+
+.buffer {
+	height: 30px;
+}
+
+ul {
+	text-align: left;
+}
+
+.btn {
+	margin: 40px;
+}
+
+.btn-color {
+	border-color: #EC425D ;
+	background-color: #EC425D;
+	transition: all 300ms;
+}
+
+.btn:hover {
+	border-color: #C2213A;
+	background-color: #C2213A;
+	transform: scale(1.1);
+}
+
+
+.col-color1, .col-color2, .col-color3 {
+	border: 2px solid white;
+	border-radius: 10px;
+}
+
+.col-color1:hover, .col-color2:hover, .col-color3:hover {
+	cursor: pointer;
+	background-color: #AC1F58;
+}
+
+.col-color1 {
+	background-color: #64BCD5;
+}
+
+.col-color2 {
+	background-color: #0480A3;
+}
+
+.col-color3 {
+	background-color: #15C683;
+}
